@@ -1,0 +1,23 @@
+program
+{
+int
+a = 51, b = 6, c, i;
+string x = "abc", y, z = "abcd";
+c = (a + b) * 2;
+if (c >= 100 or x == z)
+{
+read (y);
+write (y);
+write (x + y + z, c);
+}
+else
+c = a = 21;
+while (c > 100)
+{
+for (i = 0; i < 3; i = i+1) {write(i); write("\n");}
+c = c - 5;
+write (c);
+x = x + "step";
+}
+write (x);
+}

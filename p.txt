@@ -1,0 +1,9 @@
+program
+var x21h4, kek, s : int;
+
+begin
+s := 0;
+if false then write (25) else while s < 5 do s := s + 1;
+write (s)
+end
+@
